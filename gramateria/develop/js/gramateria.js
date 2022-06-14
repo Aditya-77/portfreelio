@@ -11,7 +11,7 @@ import dependencyCDNLinks from './config/dependencyCDNLinks'
 
 import 'notyf/notyf.min.css'; 
 
-class Portfreelio {
+class Gramateria {
     constructor() {
 
         this.msg = new Notyf({
@@ -36,11 +36,11 @@ class Portfreelio {
                     'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap',
                     'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css',
                     'https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/font-awesome-line-awesome/css/all.min.css',
-                    'portfreelio/dist/global.css'
+                    'gramateria/dist/global.css'
                 ],
                 scripts: [
                     'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js',
-                    'portfreelio/dist/global.js'
+                    'gramateria/dist/global.js'
                 ],
             },
             // commands,
@@ -457,6 +457,6 @@ class Portfreelio {
     }
 }
 
-(new Portfreelio()).init();
+(new Gramateria()).init();
 
 loadingSpinner();

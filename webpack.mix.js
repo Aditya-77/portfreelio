@@ -7,27 +7,27 @@ mix.disableNotifications()
 
 
 /* ----------------------------
-Compile Portfreelio script
+Compile Gramateria script
 ------------------------------ */
 
 // Template related global css
-.copy('portfreelio/develop/css/global.css','build/portfreelio/dist/global.css')
+.copy('gramateria/develop/css/global.css','build/gramateria/dist/global.css')
 
-// Portfreelio builder css
-.sass('portfreelio/develop/sass/portfreelio.scss','build/portfreelio/dist/gram.min.css')
+// Gramateria builder css
+.sass('gramateria/develop/sass/gramateria.scss','build/gramateria/dist/gram.min.css')
 
 // Template related global js
-.copy('portfreelio/develop/js/global.js','build/portfreelio/dist/global.js')
+.copy('gramateria/develop/js/global.js','build/gramateria/dist/global.js')
 
-// Portfreelio builder js
-.js('portfreelio/develop/js/portfreelio.js','build/portfreelio/dist/gram.min.js')
+// Gramateria builder js
+.js('gramateria/develop/js/gramateria.js','build/gramateria/dist/gram.min.js')
 
 
-// Comment this off when there is no change for Portfreelio fonts and svg.
+// Comment this off when there is no change for Gramateria fonts and svg.
 // const assets_data = [
 //     'fonts',
 //     'svg'
 // ]
 // for(let asset of assets_data){
-//     mix.copyDirectory(`portfreelio/develop/${asset}`,`portfreelio/dist/${asset}`)
+//     mix.copyDirectory(`gramateria/develop/${asset}`,`gramateria/dist/${asset}`)
 // }

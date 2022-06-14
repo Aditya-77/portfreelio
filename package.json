@@ -1,5 +1,5 @@
 {
-  "name": "portfreelio",
+  "name": "gramateria",
   "version": "1.0.6",
   "private": true,
   "description": "Open source drag and drop website builder with bootstrap 5",
@@ -13,8 +13,8 @@
     "dist": "electron-builder"
   },
   "keywords": [
-    "Portfreelio",
-    "portfreelio",
+    "Gramateria",
+    "gramateria",
     "webite",
     "grapejs",
     "builder",
@@ -26,8 +26,8 @@
     "url": "https://www.augusthost.com"
   },
   "build": {
-    "productName": "portfreelio",
-    "appId": "com.augusthost.portfreelio",
+    "productName": "gramateria",
+    "appId": "com.augusthost.gramateria",
     "directories": {
       "output": "export",
       "buildResources": "build"
