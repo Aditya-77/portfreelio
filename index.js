@@ -11,10 +11,10 @@ let win
 
 function createWindow() {
     var template = [{
-            label: "Gramateria",
+            label: "Portfreelio",
             submenu: [
                 {
-                    label: "About Gramateria",
+                    label: "About Portfreelio",
                     selector: "orderFrontStandardAboutPanel:"
                 },
                 {
