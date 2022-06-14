@@ -1,14 +1,14 @@
-# Gramateria - v1.0.6 
+# Portfreelio - v1.0.6 
 
-Gramateria a drag and drop web builder which is built with GrapesJS but with a different look, blocks and components. And v1.0.6 is using Bootstrap 5, can generate a Desktop app with ElectronJS and can deploy to Netlify.
+Portfreelio a drag and drop web builder which is built with GrapesJS but with a different look, blocks and components. And v1.0.6 is using Bootstrap 5, can generate a Desktop app with ElectronJS and can deploy to Netlify.
 
-[DEMO](https://gramateria.netlify.app)
+[DEMO](https://portfreelio.netlify.app)
 
-<img src="https://res.cloudinary.com/dpnea22ek/image/upload/w_1400/v1627100771/gramateria.jpg" />
+<img src="https://res.cloudinary.com/dpnea22ek/image/upload/w_1400/v1627100771/portfreelio.jpg" />
 
 ----
 
-Gramateria v1.0.6 is a re-rewritten version that changed many features and code.
+Portfreelio v1.0.6 is a re-rewritten version that changed many features and code.
 
 > Although I have stopped developing this app for a while, there are still many users and I feel a little bad because of my old/dirty codes. So I decided to refactor the codes and add some features to be more useful for developers and non-developers in this v1.0.6.
 
@@ -53,7 +53,7 @@ Check `export` folder after running `npm run pack` command.
 
 #### Reason of removing dashboard
 <a name="remove-message"></a>
-Because making Gramateria to compatible with Vue, ElementUI and Firebase versions is not an easy task for me. And I want to keep Gramateria as a desktop based app.
+Because making Portfreelio to compatible with Vue, ElementUI and Firebase versions is not an easy task for me. And I want to keep Portfreelio as a desktop based app.
 
 #### Roadmap
 - Add more blocks

@@ -7,7 +7,7 @@ import {
     removeSite,
     removeSiteFromNetlify,
     getUrl
-} from './../helpers'
+} from '../helpers'
 import { Notyf } from 'notyf';
 
 

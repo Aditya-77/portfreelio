@@ -227,8 +227,8 @@ export const loadingSpinner = () => {
 }
 
 export const getGlobalJsCss = async () =>{
-    const global_css_url = 'gramateria/dist/global.css';
-    const global_js_url  = 'gramateria/dist/global.js';
+    const global_css_url = 'portfreelio/dist/global.css';
+    const global_js_url  = 'portfreelio/dist/global.js';
     
     const cssRes = await fetch(global_css_url);
     const css    = await cssRes.text();
